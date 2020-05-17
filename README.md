@@ -27,7 +27,9 @@ at the extremes of the scale, but nothing I felt needed to be corrected for.
 
 While the ESP8266 has a single ADC input, it's limited to 3.3 VDC. Rather
 than scale the eTape voltage down and reduce resolution, I decided to use
-an outboard ADC1015 I2C ADC capable of the full 5V range.  
+an outboard ADC1015 I2C ADC capable of the full 5V range.  NOTE: The 
+sketch from my notebook shows the eTape output connected to input 3 of
+the ADC chip, but the program actually uses input 0.
 
 Since the ADC was operating at 5V and many ESP8266 boards run at 3.3V, I
 threw in a level shifter board (essentially a couple of MOSFETs with pull-up 

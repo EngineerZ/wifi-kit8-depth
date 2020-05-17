@@ -1,0 +1,15 @@
+pi@host:~ $ mosquitto_sub -t home/sump -h host
+{"depth_inches" : 6.615 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.615 }
+{"depth_inches" : 6.615 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.615 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.615 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.624 }
+{"depth_inches" : 6.615 }
